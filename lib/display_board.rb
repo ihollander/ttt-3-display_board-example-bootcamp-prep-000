@@ -4,4 +4,8 @@ def display_board
   col_separator = "|"
   row_separator = "-----------"
   puts cell + col_separator + cell + col_separator + cell
+  puts row_separator
+  puts cell + col_separator + cell + col_separator + cell
+  puts row_separator
+  puts cell + col_separator + cell + col_separator + cell
 end
